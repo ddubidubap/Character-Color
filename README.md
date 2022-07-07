@@ -1,3 +1,6 @@
+<h2>캐릭터 색 맞추기 프로그램</h2>
+<h4>자바스크립트, PIXI 사용</h4>
+
 ** https://github.com/rollup/rollup-starter-app 참고
 <p>(PIXI 호출이 안된다면 https://www.html5gamedevs.com/topic/46742-need-help-using-pixijs-from-npm/ 에서 resolve() --> resolve({preferBuiltins...})) 참고 </p>
 <br>

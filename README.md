@@ -1,5 +1,5 @@
 ** https://github.com/rollup/rollup-starter-app 참고
-<p>(PIXI 호출이 안된다면 https://www.html5gamedevs.com/topic/46742-need-help-using-pixijs-from-npm/에서 resolve() --> resolve({preferBuiltins...})) 참고 </p>
+<p>(PIXI 호출이 안된다면 https://www.html5gamedevs.com/topic/46742-need-help-using-pixijs-from-npm/ 에서 resolve() --> resolve({preferBuiltins...})) 참고 </p>
 <br>
 
 ![image](https://user-images.githubusercontent.com/61930770/177736695-d6e89569-964a-4534-814d-95e2db936b74.png)

@@ -1,35 +1,17 @@
-# rollup-starter-app
+<h2>캐릭터 색 맞추기 프로그램</h2>
+<h4>자바스크립트, PIXI 사용</h4>
 
-This repo contains a bare-bones example of how to create an application using Rollup, including importing a module from `node_modules` and converting it from CommonJS.
+** https://github.com/rollup/rollup-starter-app 참고
+<p>(PIXI 호출이 안된다면 https://www.html5gamedevs.com/topic/46742-need-help-using-pixijs-from-npm/ 에서 resolve() --> resolve({preferBuiltins...})) 참고 </p>
+<br>
 
-*See also https://github.com/rollup/rollup-starter-lib*
+![image](https://user-images.githubusercontent.com/61930770/177736695-d6e89569-964a-4534-814d-95e2db936b74.png)
+<br><br>
 
+![image](https://user-images.githubusercontent.com/61930770/177736862-5b21dfff-eed6-4651-941d-dfc6b152dc7d.png)
+<br><br>
 
-## Getting started
+![image](https://user-images.githubusercontent.com/61930770/177736732-c6902b62-b834-4200-96d0-d514e0de3d79.png)
+<br><br>
 
-Clone this repository and install its dependencies:
-
-```bash
-git clone https://github.com/rollup/rollup-starter-app
-cd rollup-starter-app
-npm install
-
-# or
-npx degit "rollup/rollup-starter-app" my-app
-cd my-app
-npm install
-```
-
-The `public/index.html` file contains a `<script src='bundle.js'>` tag, which means we need to create `public/bundle.js`. The `rollup.config.js` file tells Rollup how to create this bundle, starting with `src/main.js` and including all its dependencies, including [date-fns](https://date-fns.org).
-
-`npm run build` builds the application to `public/bundle.js`, along with a sourcemap file for debugging.
-
-`npm start` launches a server, using [serve](https://github.com/zeit/serve). Navigate to [localhost:3000](http://localhost:3000).
-
-`npm run watch` will continually rebuild the application as your source files change.
-
-`npm run dev` will run `npm start` and `npm run watch` in parallel.
-
-## License
-
-[MIT](LICENSE).
+![image](https://user-images.githubusercontent.com/61930770/177736748-5ecc1373-5161-47cb-b526-fb6530e1a8b6.png)

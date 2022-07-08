@@ -50,11 +50,11 @@ export function explainImage() {
 }
 
 // 게임 시작 버튼
-export function belowButton(text, callback) {
+export function belowButton(text, y, callback) {
     let belowBtn = new Button(text);
     belowBtn.setCallback(callback);
-    belowBtn.setRectSizeColor(300, 700, 300, 50, 0xBDBDBD, true);
-    belowBtn.setTextLocation(300, 700, true);
+    belowBtn.setRectSizeColor(300, y, 300, 50, 0xBDBDBD, true);
+    belowBtn.setTextLocation(300, y, true);
     belowBtn.setTextStyle("#000000", 30, "bold");
     let belowBtnObj = belowBtn.create();
 

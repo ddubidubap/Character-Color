@@ -42,7 +42,7 @@ app.stage.addChild(titleBarObj);
 // 게임 방법 설명 ================================================
 var explainText = utils.explainText();
 var explainImage = utils.explainImage();
-var startButton = utils.belowButton("게임 시작!", gameStart);
+var startButton = utils.belowButton("게임 시작!", 700, gameStart);
 
 explainArea.addMyChildren([explainText, explainImage, startButton]);
 var explainAreaObj = explainArea.create();
@@ -174,7 +174,7 @@ function timeRun() {
 function finishGame() {
     let overText = utils.subTextOnOverlay("게임 종료");
     let finalScore = utils.mainTextOnOverlay(`${score}점`);
-    let exitButton = utils.belowButton("확인", function() {
+    let exitButton = utils.belowButton("확인", 600, function() {
         currentPage = 0;
         window.location.reload();
     });

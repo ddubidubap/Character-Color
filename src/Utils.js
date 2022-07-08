@@ -1,4 +1,3 @@
-import * as PIXI from 'pixi.js';
 import { Button } from './ClassButton';
 import { Text } from './ClassText';
 import { Image } from './ClassImage';

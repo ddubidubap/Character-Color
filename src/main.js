@@ -1,7 +1,5 @@
 import * as PIXI from 'pixi.js';
 import * as utils from './Utils';
-import { Button } from './ClassButton';
-import { Text } from './ClassText';
 import { Image } from './ClassImage';
 import { Container } from './ClassContainer';
 
